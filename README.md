@@ -1,7 +1,8 @@
 # College Website
-###Welcome to the new official website project of IIIT-Vadodara. 
+### Welcome to the new official website project of IIIT-Vadodara. 
 
 [![Join the chat at https://gitter.im/iiitv/college_website](https://badges.gitter.im/iiitv/college_website.svg)](https://gitter.im/iiitv/college_website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The project will be replacing the existing 
 [IIITVadodara website](http://www.iiitvadodara.ac.in/) as instructed by the college authorities. The project is still in its initial phase.
 It is an collaborative effort of professors and students of the college.
@@ -52,6 +53,4 @@ The new website will consist of all data present currently in the website.
 * Career
 
 
----
----
-###### Thanks.
+#### Thanks.
