@@ -34,6 +34,7 @@ The new website will consist of all data present currently in the website.
     * Master of Technology
         * Computer Science and Technology
     * Doctor of Philosophy
+    * Academic Calender
 * Admissions
     * Bachelor of Technology
     * Master of Technology
@@ -45,7 +46,8 @@ The new website will consist of all data present currently in the website.
 * More
     * FAQs
     * Students' Corner
-* Carrer
+    * Library
+* carrier
 
 
 ---
