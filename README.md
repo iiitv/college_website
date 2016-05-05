@@ -8,4 +8,46 @@ The website will be static and has to be created by May 18, 2016.
 
 All the IIITV students are requested to collaborate in the development of the site. You can open issues to report bugs.
 
-Thanks.
+
+#### Data in the New Website
+The new website will consist of all data present currently in the website.
+
+#### Navigation Scheme
+* Institute
+    * About
+    * Director's Message
+    * Society Members
+    * Academic Council
+    * Finance Committee
+    * RTI
+    * MOU
+    * Rules and Regulations
+    * Linkages
+        * DA-IICT
+        * GSFC
+        * GERMI
+        * TCS
+* Academics
+    * Bachelor of Technology
+        * Computer Science and Engneering
+        * Information Technology
+    * Master of Technology
+        * Computer Science and Technology
+    * Doctor of Philosophy
+* Admissions
+    * Bachelor of Technology
+    * Master of Technology
+    * Doctor of Philosophy
+* People
+    * Faculty
+    * Visiting Faculty
+    * Staff
+* More
+    * FAQs
+    * Students' Corner
+* Carrer
+
+
+---
+---
+###### Thanks.
