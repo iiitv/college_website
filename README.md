@@ -47,7 +47,7 @@ The new website will consist of all data present currently in the website.
     * FAQs
     * Students' Corner
     * Library
-* carrier
+* Career
 
 
 ---
