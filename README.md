@@ -29,10 +29,10 @@ The new website will consist of all data present currently in the website.
         * TCS
 * Academics
     * Bachelor of Technology
-        * Computer Science and Engneering
+        * Computer Science and Engineering
         * Information Technology
     * Master of Technology
-        * Computer Science and Technology
+        * Computer Science and Engineering
     * Doctor of Philosophy
     * Academic Calender
 * Admissions
