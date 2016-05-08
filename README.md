@@ -52,6 +52,7 @@ The new website will consist of all data present currently in the website.
 * More
     * FAQs
     * Students' Corner
+    * Moodle
     * Library
 * Career
 
