@@ -29,6 +29,10 @@ nav{
 	background-color:rgb(15,108,107);
 }
 
+.top-margin-50px {
+    margin-top: 50px;
+}
+
 nav .nav-wrapper{
 	text-align: center;
 }
