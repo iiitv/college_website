@@ -1,4 +1,5 @@
-/*Start your css code from here*/
+/*Primary Color:rgb(15,108,107)*/
+/*Secondary Color:rgb(50,50,50)*/
 
 @font-face {
     font-family: 'Oxygen';
@@ -16,4 +17,15 @@
 
 body{
 	font-family: 'Oxygen',sans-serif;
+}
+
+nav{
+	background-color:rgb(15,108,107);
+}
+
+nav .nav-wrapper{
+	text-align: center;
+}
+.nav-custom{
+	display: inline-block;
 }
