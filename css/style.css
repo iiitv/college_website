@@ -1,6 +1,7 @@
 /*Primary Color:rgb(15,108,107)*/
 /*Secondary Color:rgb(50,50,50)*/
 /*Grey:rgb(240,240,240)*/
+// wrapper-width:700px
 
 @font-face {
     font-family: 'Oxygen';
@@ -14,6 +15,10 @@
     src: url(../fonts/Oxygen/Oxygen-Bold.ttf);
     font-weight: bold;
     font-style: normal;
+}
+
+.primary-color{
+	color:rgb(15,108,107) !important;
 }
 
 body{
@@ -32,9 +37,60 @@ nav .nav-wrapper{
 }
 
 .nav-custom > li{
-	padding: 0 1em;
+	padding: 0 1rem;
 }
 
 nav ul li{
 	// margin: 0 1em;
+}
+
+.sidebar-humburger{
+	margin-left: 2rem;
+}
+
+.header-wrapper{
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.header-container{
+	display: flex;
+	align-items:flex-end;
+	justify-content: space-between;
+}
+
+.logo-name{
+	display: flex;
+	align-items:center;
+	margin-left: 2rem;
+}
+
+.logo-name .name h5{
+	// font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.logo-name .name{
+	margin-left: 1rem;
+}
+
+.logo-name .name h5:nth-child(1){
+	margin-bottom: 0.3rem;
+}
+
+.logo-name .name h5:nth-child(2){
+	margin-top: 0.1rem;
+}
+
+.logo-name .logo img{
+	width: 100px;
+}
+
+.header-links{
+	margin-right: 2rem;
+    margin-bottom: 1.4rem;
+}
+
+.header-links i {
+	cursor:pointer;
 }
