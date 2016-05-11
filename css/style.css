@@ -1,0 +1,19 @@
+/*Start your css code from here*/
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url(../fonts/Oxygen/Oxygen-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url(../fonts/Oxygen/Oxygen-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+	font-family: 'Oxygen',sans-serif;
+}
