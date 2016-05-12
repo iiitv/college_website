@@ -195,7 +195,7 @@ nav ul li{
 footer{
 	// background-image: url("../img/footer.jpg");
 	background-color: #F0F0F0;
-	height: 15rem;
+	// height: 15rem;
 	background-size: cover;
 	background-position: top center;
 	border-top: 4px solid rgb(50,50,50);
@@ -204,7 +204,7 @@ footer{
 }
 
 .footer-wrapper{
-	padding: 1rem;
+	padding: 4rem 1rem;
 }
 
 .seperator:after{
@@ -217,14 +217,12 @@ footer .row{
 }
 
 footer .address{
-	// margin-top: 5rem;
+
 }
 
 
 .links a{
 	color:rgba(0, 0, 0, 0.87);
-	// font-weight: bold;
-	// font-size: 1.5rem;
 }
 
 .links a:hover{
