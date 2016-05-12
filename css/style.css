@@ -33,6 +33,85 @@ nav{
 	background-color:rgb(15,108,107);
 }
 
+/* Navbar */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: rgba(8, 8, 8, 0.2);
+}
+
+.navbar-custom{
+	background-color: rgb(15,108,107);
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: rgba(255,255,255,0.9);
+	line-height: 2.2;
+}
+
+.navbar-nav > li{
+	margin:0  10px;
+}
+
+@media (min-width: 768px){
+	.navbar-collapse.collapse {
+	    display: flex !important; 
+	    justify-content:center;
+	}
+}
+
+/* Nav Ends */
+
+
+
 .top-margin-50px {
     margin-top: 50px;
 }
@@ -52,6 +131,9 @@ nav ul li{
 	// margin: 0 1em;
 }
 
+
+
+
 .sidebar-humburger{
 	margin-left: 2rem;
 }
@@ -61,10 +143,16 @@ nav ul li{
 	max-width: 800px;
 }
 
+
 .header-container{
 	display: flex;
 	align-items:flex-end;
 	justify-content: space-between;
+	margin: 0.4rem 0;
+}
+
+#dropdown1{
+	// overflow: hidden;
 }
 
 .logo-name{
@@ -75,7 +163,7 @@ nav ul li{
 
 .logo-name .name h5{
 	// font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 2.3rem;
 }
 
 .logo-name .name{
@@ -96,7 +184,7 @@ nav ul li{
 
 .header-links{
 	margin-right: 2rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 2.2rem;
 }
 
 .header-links i {
@@ -115,12 +203,16 @@ footer{
     align-items: center;
 }
 
+.footer-wrapper{
+	padding: 1rem;
+}
+
 .seperator:after{
 	content: "|";
 }
 
-footer row{
-	font-size: 1.2rem;
+footer .row{
+	font-size: 1.5rem;
 }
 
 footer .address{
@@ -131,7 +223,7 @@ footer .address{
 .links a{
 	color:rgba(0, 0, 0, 0.87);
 	// font-weight: bold;
-	font-size: 1.1rem;
+	// font-size: 1.5rem;
 }
 
 .links a:hover{
@@ -144,13 +236,15 @@ footer .address{
 
 
 .footer-social {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 
 .footer-social a{
-	color: inherit;
+	color: rgb(50,50,50);
 	margin:0 0.25rem;
+	opacity: 0.85;
 }
-
-.footer-social a
+.footer-social a:hover{
+	opacity: 1;
+}
