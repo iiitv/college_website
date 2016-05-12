@@ -209,6 +209,7 @@ footer{
 
 .seperator:after{
 	content: "|";
+	font-style: normal;
 }
 
 footer .row{
