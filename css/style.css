@@ -94,3 +94,11 @@ nav ul li{
 .header-links i {
 	cursor:pointer;
 }
+
+.footer-wrapper{
+	background-image: url("../img/footer.jpg");
+	height: 300px;
+	background-size: cover;
+	background-position: top center;
+	border-top: 4px solid rgb(50,50,50);
+}
