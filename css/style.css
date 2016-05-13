@@ -25,13 +25,30 @@ strong{
 	font-weight: bold;
 }
 
+html,body{
+	height: 100%
+}
+
 body{
 	font-family: 'Oxygen',sans-serif;
+	min-height: 100%;
+}
+
+.wrapper{
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+
+.contents-wrapper{
+	flex:1;
 }
 
 nav{
 	background-color:rgb(15,108,107);
 }
+
+
 
 /* Navbar */
 
@@ -142,7 +159,7 @@ nav ul li{
 	margin-left: 2rem;
 }
 
-.header-wrapper,.footer-wrapper{
+.header-wrapper,.footer-wrapper,.contents-wrapper{
 	margin: 0 auto;
 	max-width: 800px;
 }
