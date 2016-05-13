@@ -115,6 +115,10 @@ nav{
 .top-margin-50px {
     margin-top: 50px;
 }
+.bottom-margin-50px {
+    margin-bottom: 50px;
+}
+
 
 nav .nav-wrapper{
 	text-align: center;
