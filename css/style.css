@@ -185,6 +185,12 @@ nav ul li{
 .logo-name .name h5{
 	// font-weight: bold;
 	font-size: 2.3rem;
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+
+.logo-name .name a:hover{
+	text-decoration: none;
 }
 
 .logo-name .name{
