@@ -107,6 +107,7 @@ nav{
 .navbar-custom{
 	background-color: rgb(15,108,107);
 	border: 0;
+	margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-nav > li > a{
@@ -222,12 +223,12 @@ nav ul li{
 footer{
 	// background-image: url("../img/footer.jpg");
 	background-color: #F0F0F0;
-	// height: 15rem;
 	background-size: cover;
 	background-position: top center;
 	border-top: 4px solid rgb(50,50,50);
 	display: flex;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .footer-wrapper{
@@ -289,3 +290,42 @@ footer .address{
 .footer-wrapper>.logo img{
 	width: 50px;
 }
+
+.slick-arrow{
+	font-family: 'FontAwesome';
+	background-color: white;
+	border: 0;
+	padding:0.5rem 1rem;
+	position: absolute;
+    z-index: 999;
+    bottom: 2rem;
+	font-size: 0;
+}
+
+.slick-arrow:hover,.slick-arrow:focus,.slick-arrow:active{
+	outline: 0;
+	border: 0;
+}
+
+.slick-prev{
+    right: 8rem;
+}
+
+.slick-prev:after{
+	content: "\f053";
+	font-size: 16px;
+}
+
+.slick-next{	
+    right: 4rem
+}
+
+.slick-next:after{
+	content: "\f054";
+	font-size: 16px;
+}
+
+
+
+// Slick style
+
