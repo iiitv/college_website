@@ -1,6 +1,7 @@
 /*Primary Color:rgb(15,108,107)*/
 /*Secondary Color:rgb(50,50,50)*/
 /*Grey:rgb(240,240,240)*/
+/*Green:rgb(163,169,72)*/
 /* wrapper-width:700px */
 
 @font-face {
@@ -340,7 +341,11 @@ footer .address{
 	color: white;
 }
 
-.announcement-content ul,.news-content ul{
+.events-content{
+	color:rgb(163,169,72);
+}
+
+.announcement-content ul,.news-content ul,.events-content ul{
 	padding: 0;
     list-style: none;
     margin-top: 2rem;
@@ -354,18 +359,29 @@ footer .address{
 	margin:1rem 0;
 }
 
-#announcement-list-pagination,#news-list-pagination{
+.events-content ul li{
+	margin:1rem 0;
+	color: white;
+	margin-bottom: 3rem;
+}
+
+#announcement-list-pagination,#news-list-pagination,#events-list-pagination{
 	text-align:right;
 	margin-top: 1.5rem;
 }
 
-#announcement-list-pagination span,#news-list-pagination span{
+#announcement-list-pagination span,#news-list-pagination span,#events-list-pagination span{
 	border: 1px solid white;
     padding: 0.5rem;
     color: white;
 }
 
-#announcement-list-previous.disabled,#announcement-list-next.disabled,#news-list-previous.disabled,#news-list-next.disabled{
+#events-list-pagination span{
+	border-color:rgb(163,169,72);
+	color:rgb(163,169,72);
+}
+
+#announcement-list-previous.disabled,#announcement-list-next.disabled,#news-list-previous.disabled,#news-list-next.disabled,#events-list-previous.disabled,#events-list-next.disabled{
 	opacity: 0.5;
 	cursor:not-allowed;
 	// display: none;
@@ -382,4 +398,49 @@ footer .address{
     padding: 0rem 0.8rem;
 }
 
-/*// Slick style*/
+.event-container{
+	display: flex;
+	align-items:center;
+}
+
+.event-container .date{
+	min-width: 90px;
+	border-right: 2px solid rgb(163,169,72);
+	// text-align: center;
+}
+
+.event-container .date>span{
+	display: inline-block;
+	border: 2px solid rgb(163,169,72);
+    border-radius: 100%;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+}
+
+.event-container .date>span .month{
+	color: rgb(163,169,72);
+}
+
+.event-container .date>span .day{
+	font-size: 1.5em;
+}
+
+.event-container .event-text{
+	margin-left: 1rem;
+}
+
+#events{
+	padding: 0 2rem
+}
+
+#announcements{
+	padding: 0;
+	padding-right: 2rem;
+}
+
+#news{
+	padding: 0;
+	padding-left: 2rem;
+}
