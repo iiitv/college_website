@@ -8,5 +8,8 @@ $(document).ready(function() {
 		autoplay: true,
   		autoplaySpeed: 2000
   	});
+
+  	 // $("#content").jPaginate();
+  	 $('#announcement-list').paginate({itemsPerPage: 3});
 });
 

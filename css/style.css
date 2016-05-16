@@ -325,6 +325,55 @@ footer .address{
 	font-size: 16px;
 }
 
+.widgets-wrapper{
+	background-color:rgb(15,108,107);
+	padding-bottom: 8rem;
+    padding-top: 3rem;
+}
+
+.widgets-container{
+	max-width: 800px;
+    margin: 0 auto;
+}
+
+.content.announcement{
+	color: white;
+}
+
+.content.announcement ul{
+	padding: 0;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.content.announcement ul li{
+	display: block;
+	background-color: white;
+	color: rgb(50,50,50);
+	padding: 1rem;
+	margin:1rem 0;
+}
+
+#announcement-list-pagination{
+	text-align:right;
+	margin-top: 1.5rem;
+}
+
+#announcement-list-pagination span{
+	border: 1px solid white;
+    padding: 0.5rem;
+    color: white;
+}
+
+#announcement-list-previous.disabled,#announcement-list-next.disabled{
+	opacity: 0.5;
+	cursor:not-allowed;
+	// display: none;
+}
+
+#home footer{
+	margin-top: 0;
+}
 
 
 // Slick style
