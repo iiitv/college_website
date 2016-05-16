@@ -336,17 +336,17 @@ footer .address{
     margin: 0 auto;
 }
 
-.content.announcement{
+.announcement-content,.news-content{
 	color: white;
 }
 
-.content.announcement ul{
+.announcement-content ul,.news-content ul{
 	padding: 0;
     list-style: none;
     margin-top: 2rem;
 }
 
-.content.announcement ul li{
+.announcement-content ul li,.news-content ul li{
 	display: block;
 	background-color: white;
 	color: rgb(50,50,50);
@@ -354,18 +354,18 @@ footer .address{
 	margin:1rem 0;
 }
 
-#announcement-list-pagination{
+#announcement-list-pagination,#news-list-pagination{
 	text-align:right;
 	margin-top: 1.5rem;
 }
 
-#announcement-list-pagination span{
+#announcement-list-pagination span,#news-list-pagination span{
 	border: 1px solid white;
     padding: 0.5rem;
     color: white;
 }
 
-#announcement-list-previous.disabled,#announcement-list-next.disabled{
+#announcement-list-previous.disabled,#announcement-list-next.disabled,#news-list-previous.disabled,#news-list-next.disabled{
 	opacity: 0.5;
 	cursor:not-allowed;
 	// display: none;
@@ -373,6 +373,13 @@ footer .address{
 
 #home footer{
 	margin-top: 0;
+}
+
+#news-list .more{
+	background-color: #0F6C6B;
+    margin-left: 0.5rem;
+    color: white;
+    padding: 0rem 0.8rem;
 }
 
 
