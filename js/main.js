@@ -12,5 +12,6 @@ $(document).ready(function() {
   	 // $("#content").jPaginate();
   	 $('#announcement-list').paginate({itemsPerPage: 3});
   	 $('#news-list').paginate({itemsPerPage: 3});
+  	 $('#events-list').paginate({itemsPerPage: 3});
 });
 
