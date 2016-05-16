@@ -450,3 +450,35 @@ footer .address{
 	padding: 0;
 	padding-left: 2rem;
 }
+
+/**
+ * Directors Msg
+ */
+.dir-msg{
+	display: flex;
+	margin-top: 2rem;
+}
+
+.dir-text{
+	padding-left: 3rem;
+}
+
+.dir-detail{
+	text-align: center;
+	display: inline-block;
+	line-height: 1.6;
+}
+
+.dir-detail >img{
+	border-radius: 100%;
+    border: 5px solid #F0F0F0;
+    margin-bottom: 1rem;
+}
+
+.dir-detail>div:nth-child(2){
+	font-weight: bold;
+}
+
+.dir-detail>div:nth-child(3),.dir-detail>div:nth-child(4){
+	font-size: 0.85em;
+}

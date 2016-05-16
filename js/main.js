@@ -9,7 +9,6 @@ $(document).ready(function() {
   		autoplaySpeed: 2000
   	});
 
-  	 // $("#content").jPaginate();
   	 $('#announcement-list').paginate({itemsPerPage: 3});
   	 $('#news-list').paginate({itemsPerPage: 3});
   	 $('#events-list').paginate({itemsPerPage: 3});
