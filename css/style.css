@@ -41,9 +41,7 @@ body{
     flex-direction: column;
 }
 
-.contents-wrapper{
-	flex:1;
-}
+
 
 nav{
 	background-color:rgb(15,108,107);
@@ -164,6 +162,14 @@ nav ul li{
 .header-wrapper,.footer-wrapper,.contents-wrapper{
 	margin: 0 auto;
 	max-width: 800px;
+}
+
+.contents-wrapper{
+	margin-top: 3rem;
+    margin-bottom: 2rem;
+	flex:1;
+	line-height: 1.5;
+	font-size: 16px;
 }
 
 
