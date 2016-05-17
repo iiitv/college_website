@@ -22,6 +22,10 @@
 	color:rgb(15,108,107) !important;
 }
 
+a{
+	color: inherit;
+}
+
 strong{
 	font-weight: bold;
 }
@@ -222,9 +226,14 @@ nav ul li{
     margin-bottom: 2.2rem;
 }
 
-.header-links i {
+.header-links a {
 	cursor:pointer;
-	margin:0 0.3rem;
+	margin:0 0.75rem;
+}
+
+.header-links a:hover,.header-links a:focus{
+	color: inherit;
+	opacity: 0.9;
 }
 
 footer{
