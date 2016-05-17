@@ -491,6 +491,8 @@ footer .address{
 	padding: 2rem;
 }
 
-.career .list-group .list-group-item{
+.career .list-group .list-group-item,
+.visiting-faculty .list-group .list-group-item,.staff-members .list-group .list-group-item{
 	padding: 2rem;
 }
+
