@@ -22,10 +22,6 @@
 	color:rgb(15,108,107) !important;
 }
 
-a{
-	color: inherit;
-}
-
 strong{
 	font-weight: bold;
 }
@@ -156,6 +152,10 @@ nav ul li{
 	// margin: 0 1em;
 }
 
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: rgb(50,50,50);
+}
+
 
 
 
@@ -229,6 +229,7 @@ nav ul li{
 .header-links a {
 	cursor:pointer;
 	margin:0 0.75rem;
+	color: inherit;
 }
 
 .header-links a:hover,.header-links a:focus{

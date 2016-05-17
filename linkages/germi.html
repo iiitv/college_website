@@ -32,9 +32,9 @@
                         </div>
                     </div>
                     <div class="header-links">
-                        <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
-                        <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
-                        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                        <a href="#" data-toggle="popover" title="Address" data-content="c/o Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028" data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="popover" title="Phone No." data-content="+91-79-29750281" data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="popover" title="Email" data-content="helpdesk@iiitvadodara.ac.in" data-placement="bottom"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -187,6 +187,11 @@
     </div>
     <script type="text/javascript" src="../js/jquery-2.2.3.js "></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('[data-toggle="popover"]').popover();
+    });
+    </script>
 </body>
 
 </html>
