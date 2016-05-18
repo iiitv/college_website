@@ -267,16 +267,19 @@
     <script type="text/javascript" src="js/jquery-2.2.3.js "></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script>
-    $(document).on('click', function (e) {
+        $(document).on('click', function (e) {
     var
         $popover,
         $target = $(e.target);
+
     //do nothing if there was a click on popover content
     if ($target.hasClass('popover') || $target.closest('.popover').length) {
         return;
     }
+
     $('[data-toggle="popover"]').each(function () {
         $popover = $(this);
+
         if (!$popover.is(e.target) &&
             $popover.has(e.target).length === 0 &&
             $('.popover').has(e.target).length === 0)
@@ -287,7 +290,7 @@
             $popover.popover('toggle');
         }
     });
-
+})
 
     </script>
 </body>
