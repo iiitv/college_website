@@ -506,3 +506,6 @@ footer .address{
 	padding: 2rem;
 }
 
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
