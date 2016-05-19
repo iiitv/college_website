@@ -47,6 +47,18 @@ nav{
 	background-color:rgb(15,108,107);
 }
 
+/* For Fix Nav Bar */
+.cp_sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: 2px solid #fff;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
 
 
 /* Navbar */
