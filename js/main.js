@@ -1,16 +1,42 @@
 $(document).ready(function() {
-	$('.carousel').slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-		fade: true,
-		cssEase: 'linear',
-		autoplay: true,
-  		autoplaySpeed: 2000
-  	});
+    $('.carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [{
+            breakpoint: 1600,
+            settings: {
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 880,
+            settings: {
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }]
+    });
 
-  	 $('#announcement-list').paginate({itemsPerPage: 3});
-  	 $('#news-list').paginate({itemsPerPage: 3});
-  	 $('#events-list').paginate({itemsPerPage: 3});
+    $('#announcement-list').paginate({ itemsPerPage: 3 });
+    $('#news-list').paginate({ itemsPerPage: 3 });
+    $('#events-list').paginate({ itemsPerPage: 3 });
 });
-
