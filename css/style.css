@@ -310,22 +310,25 @@ footer .address{
 
 .slick-arrow{
 	font-family: 'FontAwesome';
-	background-color: white;
-	border: 0;
+	background-color: rgb(240,240,240);
+	color: rgb(15,108,107);
+	border: 4px solid rgb(15,108,107);
 	padding:0.5rem 1rem;
 	position: absolute;
     z-index: 999;
-    bottom: 2rem;
 	font-size: 0;
 }
 
 .slick-arrow:hover,.slick-arrow:focus,.slick-arrow:active{
 	outline: 0;
-	border: 0;
 }
 
 .slick-prev{
-    right: 8rem;
+    width: 50px;
+    height: 50px;
+    left: 1.5rem;
+    top: 42%;
+    border-radius: 100%;
 }
 
 .slick-prev:after{
@@ -334,7 +337,11 @@ footer .address{
 }
 
 .slick-next{	
-    right: 4rem
+    width: 50px;
+    height: 50px;
+    right: 1.5rem;
+    top: 42%;
+    border-radius: 100%;
 }
 
 .slick-next:after{
@@ -508,4 +515,15 @@ footer .address{
 
 .table > tbody > tr > td {
 	vertical-align: middle;
+}
+
+.carousel-items{
+	overflow: hidden;
+	border: 3px solid rgb(15,108,107);
+	border-bottom: 0;
+	border-top: 0;
+}
+
+.navbar-inverse .navbar-toggle{
+	border:0;
 }
