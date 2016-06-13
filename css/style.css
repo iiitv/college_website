@@ -659,6 +659,13 @@ footer .address{
 	}
 }
 
+@media (max-width: 767px){
+	footer .row >div{
+		margin-bottom: 1.5em;
+		text-align: center;
+	}
+}
+
 @media (min-width: 600px){
 	.gallery-design .grid-sizer,
 	.gallery-design .grid-item {
