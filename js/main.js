@@ -2,8 +2,15 @@ $(document).ready(function() {
     $('.carousel').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+        slidesToShow: 4,
         responsive: [{
+            breakpoint: 2400,
+            settings: {
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+        },{
             breakpoint: 1600,
             settings: {
                 centerMode: true,
