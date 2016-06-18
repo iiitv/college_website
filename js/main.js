@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $('.carousel').slick({
         centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         centerPadding: '60px',
         slidesToShow: 4,
         responsive: [{
