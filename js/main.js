@@ -61,4 +61,4 @@ function contributors($arg){
     return "Thank You";
 }
 
-console.log("Type %c contributors()%c to get list of contributors.\n %carguments(optional ):all,devs,designers",'color:rgb(15,108,107)','color:rgb(50,50,50);','color:blue');
+console.log("Type %c contributors()%c to get list of contributors.\n %carguments(optional):all,devs,designers",'color:rgb(15,108,107)','color:rgb(50,50,50);','color:blue');
