@@ -1,8 +1,20 @@
+/*************************************
+** Author: Mofid Ansari (ansarimofid)
+** Website: http://ansarimofid.in
+** Email: ansarimofid@gmail.com
+**************************************/
+
 /*Primary Color:rgb(15,108,107)*/
 /*Secondary Color:rgb(50,50,50)*/
 /*Grey:rgb(240,240,240)*/
 /*Green:rgb(163,169,72)*/
 /* wrapper-width:700px */
+
+
+
+/***************
+*General Styles
+****************/
 
 .primary-color{
 	color:rgb(15,108,107) !important;
@@ -21,19 +33,39 @@ body{
 	min-height: 100%;
 }
 
+
+/***************
+*Wrappers
+****************/
+
 .wrapper{
 	min-height: 100vh;
 	display: flex;
     flex-direction: column;
 }
 
+.header-wrapper,.footer-wrapper,.contents-wrapper{
+	margin: 0 auto;
+	max-width: 800px;
+}
 
+.contents-wrapper{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	flex:1;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+
+
+/***************
+*Header Styles
+****************/
 
 nav{
 	background-color:rgb(15,108,107);
 }
-
-
 
 /* Navbar */
 
@@ -104,16 +136,9 @@ nav{
 	margin:0  10px;
 }
 
-@media (min-width: 768px){
-	.navbar-collapse.collapse {
-	    display: flex !important; 
-	    justify-content:center;
-	}
+.navbar-inverse .navbar-toggle{
+	border:0;
 }
-
-/* Nav Ends */
-
-
 
 .top-margin-50px {
     margin-top: 50px;
@@ -121,7 +146,6 @@ nav{
 .bottom-margin-50px {
     margin-bottom: 50px;
 }
-
 
 nav .nav-wrapper{
 	text-align: center;
@@ -141,27 +165,6 @@ nav ul li{
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
 	background-color: rgb(50,50,50);
 }
-
-
-
-
-.sidebar-humburger{
-	margin-left: 2rem;
-}
-
-.header-wrapper,.footer-wrapper,.contents-wrapper{
-	margin: 0 auto;
-	max-width: 800px;
-}
-
-.contents-wrapper{
-	margin-top: 3rem;
-    margin-bottom: 2rem;
-	flex:1;
-	line-height: 1.5;
-	font-size: 16px;
-}
-
 
 .header-container{
 	display: flex;
@@ -223,76 +226,9 @@ nav ul li{
 	opacity: 0.9;
 }
 
-footer{
-	// background-image: url("../img/footer.jpg");
-	background-color: #F0F0F0;
-	background-size: cover;
-	background-position: top center;
-	border-top: 4px solid rgb(50,50,50);
-	display: flex;
-    align-items: center;
-    margin-top: 5rem;
-}
-
-.footer-wrapper{
-	padding: 6rem 1rem 2rem 1rem;;
-	position: relative;
-}
-
-.seperator:after{
-	content: "|";
-	font-style: normal;
-}
-
-footer .row{
-	font-size: 1.5rem;
-}
-
-footer .address{
-
-}
-
-
-.links a{
-	color:rgba(0, 0, 0, 0.87);
-}
-
-.links a:hover{
-	color:rgba(0, 0, 0, 1);
-}
-
-.links>div{
-	margin-bottom: 1rem
-}
-
-
-.footer-social {
-    font-size: 2rem;
-}
-
-
-.footer-social a{
-	color: rgb(50,50,50);
-	margin:0 0.25rem;
-	opacity: 0.85;
-}
-.footer-social a:hover{
-	opacity: 1;
-}
-
-.footer-wrapper>.logo {
-	position: absolute;
-	top: -4.8rem;
-    left: 43%;
-    background-color: #F0F0F0;
-    padding: 1.6rem;
-    border-radius: 100%;
-    border: 4px solid rgb(50, 50, 50);
-}
-
-.footer-wrapper>.logo img{
-	width: 50px;
-}
+/***************
+*Slick Custom Styles
+****************/
 
 .slick-arrow{
 	font-family: 'FontAwesome';
@@ -334,6 +270,12 @@ footer .address{
 	content: "\f054";
 	font-size: 16px;
 }
+
+
+/*************************
+*Home page widgets Styles
+**************************/
+
 
 .widgets-wrapper{
 	background-color:rgb(15,108,107);
@@ -453,9 +395,10 @@ footer .address{
 	padding-left: 2rem;
 }
 
-/**
+
+/****************
  * Directors Msg
- */
+**************** */
 .dir-msg{
 	display: flex;
 	margin-top: 2rem;
@@ -485,6 +428,11 @@ footer .address{
 	font-size: 0.85em;
 }
 
+
+/****************
+ * Faculty Style
+ ***************/
+
 .faculty-list .list-group .list-group-item >h3{
 	margin-bottom: 2rem;
 }
@@ -509,9 +457,10 @@ footer .address{
 	border-top: 0;
 }
 
-.navbar-inverse .navbar-toggle{
-	border:0;
-}
+/****************
+ *Gallery Style
+ ***************/
+
 
 .gallery-design {
 	text-align: center;
@@ -649,6 +598,87 @@ footer .address{
 }
 
 
+/***************
+*Footer Styles
+****************/
+
+
+footer{
+// background-image: url("../img/footer.jpg");
+	background-color: #F0F0F0;
+	background-size: cover;
+	background-position: top center;
+	border-top: 4px solid rgb(50,50,50);
+	display: flex;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.footer-wrapper{
+	padding: 6rem 1rem 2rem 1rem;;
+	position: relative;
+}
+
+.seperator:after{
+	content: "|";
+	font-style: normal;
+}
+
+footer .row{
+	font-size: 1.5rem;
+}
+
+footer .address{
+
+}
+
+
+.links a{
+	color:rgba(0, 0, 0, 0.87);
+}
+
+.links a:hover{
+	color:rgba(0, 0, 0, 1);
+}
+
+.links>div{
+	margin-bottom: 1rem
+}
+
+
+.footer-social {
+	font-size: 2rem;
+}
+
+
+.footer-social a{
+	color: rgb(50,50,50);
+	margin:0 0.25rem;
+	opacity: 0.85;
+}
+.footer-social a:hover{
+	opacity: 1;
+}
+
+.footer-wrapper>.logo {
+	position: absolute;
+	top: -4.8rem;
+	left: 43%;
+	background-color: #F0F0F0;
+	padding: 1.6rem;
+	border-radius: 100%;
+	border: 4px solid rgb(50, 50, 50);
+}
+
+.footer-wrapper>.logo img{
+	width: 50px;
+}
+
+
+/****************
+ *Media Queries
+ ***************/
+
 @media (max-width: 599px){
 	.gallery-design .grid-sizer,
 	.gallery-design .grid-item {
@@ -693,6 +723,13 @@ footer .address{
 	#gallery .contents-wrapper{
 		margin: 0;
 		width: 100%;
+	}
+}
+
+@media (min-width: 768px){
+	.navbar-collapse.collapse {
+		display: flex !important;
+		justify-content:center;
 	}
 }
 
