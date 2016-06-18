@@ -443,7 +443,7 @@ nav ul li{
 }
 
 
-.faculty-list .list-group .list-group-item >.row>div:first-child{
+.list-group .list-group-item >.row>div:first-child{
 	overflow: hidden;
 }
 
@@ -744,7 +744,7 @@ footer .address{
 		display: none;
 	}
 
-	.faculty-list .list-group .list-group-item >.row>div:last-child{
+	.list-group .list-group-item >.row>div:last-child{
 		margin-top: 1rem;
 	}
 }
