@@ -602,6 +602,28 @@ nav ul li{
 	border-radius: 0;
 }
 
+/*Faculty Profile*/
+
+.content-faculty{
+	margin-top: 2rem;
+}
+
+.pic-meta{
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.pic-meta .pic{
+	width: 200px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.pic-meta .meta{
+	text-align: center;
+	margin-top: 1rem;
+}
+
 
 /***************
 *Footer Styles
