@@ -3,31 +3,18 @@
 
 [![Join the chat at https://gitter.im/iiitv/college_website](https://badges.gitter.im/iiitv/college_website.svg)](https://gitter.im/iiitv/college_website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![Homepage Mockup](mockups/college_template_final_05-05-2016.jpg)  
-
-
-The project will be replacing the existing 
-[IIITVadodara website](http://www.iiitvadodara.ac.in/) as instructed by the college authorities. The project is still in its initial phase.
-It is an collaborative effort of professors and students of the college.
-
-The website will be static and has to be created by May 18, 2016.
-
-All the IIITV students are requested to collaborate in the development of the site. You can open issues to report bugs.
-
-
-#### Data in the New Website
-The new website will consist of all data present currently in the website.
+We are now live as [official institute website](http://iiitvadodara.ac.in/).
 
 #### Navigation Scheme
 * Institute
     * About
     * Director's Message
+    * Board of Governors
     * Society Members
     * Academic Council
     * Finance Committee
     * RTI
     * MOU
-    * Rules and Regulations
     * Linkages
         * DA-IICT
         * GSFC
@@ -54,7 +41,9 @@ The new website will consist of all data present currently in the website.
     * Students' Corner
     * Moodle
     * Library
+    * Invited Talks
 * Career
+* Photo Gallery
 
 
 #### Thanks.
