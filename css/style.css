@@ -4,20 +4,6 @@
 /*Green:rgb(163,169,72)*/
 /* wrapper-width:700px */
 
-@font-face {
-    font-family: 'Oxygen';
-    src: url(../fonts/Oxygen/Oxygen-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Oxygen';
-    src: url(../fonts/Oxygen/Oxygen-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-
 .primary-color{
 	color:rgb(15,108,107) !important;
 }
