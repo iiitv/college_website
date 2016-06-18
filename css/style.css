@@ -57,6 +57,11 @@ body{
 	font-size: 16px;
 }
 
+.contents-wrapper .content{
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
 
 
 /***************
