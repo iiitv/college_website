@@ -46,6 +46,18 @@ $(document).ready(function() {
     $('#announcement-list').paginate({ itemsPerPage: 3 });
     $('#news-list').paginate({ itemsPerPage: 3 });
     $('#events-list').paginate({ itemsPerPage: 3 });
+
+    if ($('#announcement-list').length <= 3) {
+        $('#announcement-list-previous,#announcement-list-next').addClass('disabled');
+    }
+
+    if ($('#events-list').children().length <= 3) {
+        $('#events-list-previous,#events-list-next').addClass('disabled');
+    }
+
+    if ($('#news-list').length <= 3) {
+        $('#news-list-previous,#news-list-next').addClass('disabled');
+    }
 });
 
 function contributors($arg){
