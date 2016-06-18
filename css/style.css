@@ -442,6 +442,11 @@ nav ul li{
 	margin-bottom: 2rem;
 }
 
+
+.faculty-list .list-group .list-group-item >.row>div:first-child{
+	overflow: hidden;
+}
+
 .faculty-list .list-group .list-group-item{
 	padding: 2rem;
 }
@@ -602,7 +607,9 @@ nav ul li{
 	border-radius: 0;
 }
 
-/*Faculty Profile*/
+/****************
+ *Faculty Profile
+ ***************/
 
 .content-faculty{
 	margin-top: 2rem;
@@ -735,6 +742,10 @@ footer .address{
 
 	.header-links{
 		display: none;
+	}
+
+	.faculty-list .list-group .list-group-item >.row>div:last-child{
+		margin-top: 1rem;
 	}
 }
 
