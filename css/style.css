@@ -4,11 +4,13 @@
 ** Email: ansarimofid@gmail.com
 **************************************/
 
-/*Primary Color:rgb(15,108,107)*/
-/*Secondary Color:rgb(50,50,50)*/
-/*Grey:rgb(240,240,240)*/
+/*Primary Color:rgb(15,115,107)*/
+/*Secondary Color:rgb(50,50,40)*/
+/*Grey:rgb(240,230,240)*/
 /*Green:rgb(163,169,72)*/
 /* wrapper-width:700px */
+
+
 
 
 
@@ -17,8 +19,9 @@
 ****************/
 
 .primary-color{
-	color:rgb(15,108,107) !important;
+	color:rgb(15,118,107) !important;
 }
+
 
 strong{
 	font-weight: bold;
