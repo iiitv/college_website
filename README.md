@@ -41,7 +41,7 @@ We are now live as [official institute website](http://iiitvadodara.ac.in/).
     * Staff
 * More
     * FAQs
-    * Students' Corner
+    * Student's Corner
     * Moodle
     * Library
     * Invited Talks
