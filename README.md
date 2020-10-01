@@ -5,7 +5,7 @@
 
 We are now live as [official institute website](http://iiitvadodara.ac.in/).
 
-**NOTE**: This repository is no longer related to the live college website, therefore the requests made here for content addition/modifiation are ineffective.
+**NOTE**: This repository is no longer related to the live college website, therefore the requests made here for content addition/modifiations are ineffective.
 
 
 #### Navigation Scheme
@@ -49,5 +49,5 @@ We are now live as [official institute website](http://iiitvadodara.ac.in/).
 * Photo Gallery
 
 
-#### Thanks.
+#### Thanks, Have A Nice Day :)
 
